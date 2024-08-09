@@ -4,6 +4,7 @@ while True:
     valor_aleatorio=randint(0,2)
     juego_computador=opciones[valor_aleatorio]
     juego_usuario=input("¿Que elije? Piedra, Papel, tijera: ")
+    
     if juego_usuario==juego_computador:
         print("¡Es un Empate!")
     elif juego_usuario == "Piedra":
